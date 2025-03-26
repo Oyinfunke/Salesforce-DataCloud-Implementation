@@ -19,25 +19,25 @@ This implementation is not affiliated with or endorsed by Delta Airlines or any 
 
       Delta Airlines faces challenges in staying competitive due to data silos and a lack of actionable insights. The company’s data is scattered across siloed systems making it difficult to gain a unified view of customer profiles. This fragmentation leads to inefficiencies in resolving customer issues, a lack of actionable business insights, and an inability to devise data-driven strategies.
     
-    **User Story**
+    - **User Story**
     
-    - **Data Administrator**
+        - **Data Administrator**
         
-        As a **Data Administrator**, I need to integrate customer data from multiple sources like Amazon S3, other Salesforce orgs and local files into Salesforce Data Cloud so that I can manage all data from a single platform (Data Cloud)
+            As a **Data Administrator**, I need to integrate customer data from multiple sources like Amazon S3, other Salesforce orgs and local files into Salesforce Data Cloud so that I can manage all data from a single platform (Data Cloud)
         
-        **Acceptance Criteria**
+        - **Acceptance Criteria**
         
-        - Data streaming from all sources is automated and validated for accuracy.
-        - Source data is appropriately mapped to Data Model Objects (DMO)
-        - A unified profile of each customer is created
-    - **Customer Service Agent**
+            - Data streaming from all sources is automated and validated for accuracy.
+            - Source data is appropriately mapped to Data Model Objects (DMO)
+            - A unified profile of each customer is created
+        - **Customer Service Agent**
         
-        As a **Customer Service Agent**, I need a 360-degree view of customer profiles so that I can resolve customer inquiries quickly and provide personalized support.
+            As a **Customer Service Agent**, I need a 360-degree view of customer profiles so that I can resolve customer inquiries quickly and provide personalized support.
         
-        **Acceptance Criteria**
-        
-        - Access to a 360-degree view of customer profile
-        - Service requests resolution with a 20% reduction in handling time.
+            - **Acceptance Criteria**
+                
+                - Access to a 360-degree view of customer profile
+                - Service requests resolution with a 20% reduction in handling time.
 
     
 

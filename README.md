@@ -40,6 +40,13 @@ This implementation is not affiliated with or endorsed by Delta Airlines or any 
                 - Service requests resolution with a 20% reduction in handling time.
 
 - **Solution Design**
+      <p align="center">
+  <img src="images/Copy of Data Cloud Marketing C360 System Landscape template.png" alt="Centered Image" width="1000" height="625">
+</p>
+
+
+- 
+  
 
     
 

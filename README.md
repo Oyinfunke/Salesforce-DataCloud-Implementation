@@ -4,24 +4,20 @@
 This implementation is not affiliated with or endorsed by Delta Airlines or any other airline. The data used in this project was randomly generated and is intended for educational and learning purposes only. Any references to Delta Airlines or its logo are purely for illustrative purposes to provide context to the learning scenario. The inclusion of the Delta Airlines logo does not imply sponsorship, partnership, or support from Delta Airlines.
 
 - **Introduction**
-    
-    **Objective**
-    
-    To unify Delta Airlines’ siloed customer data into Salesforce Data Cloud, creating a single source of truth for each customer.
-    
-    **Key Features**
-    
-    - Data Streaming
-    - Data Mapping
-    - Profile Unification
+    - **Objective**
+         To unify Delta Airlines’ siloed customer data into Salesforce Data Cloud, creating a single source of truth for each customer.
 
-  - **Business Use case**
+    - **Key Features**
+
+        - Data Streaming
+        - Data Mapping
+        - Profile Unification
+
+- **Business Use case**
     
-    **Problem Statement**
-    
-    Delta Airlines faces challenges in staying competitive due to data silos and a lack of actionable insights.
-    
-    The company’s data is scattered across siloed systems making it difficult to gain a unified view of customer profiles. This fragmentation leads to inefficiencies in resolving customer issues, a lack of actionable business insights, and an inability to devise data-driven strategies.
+    - **Problem Statement**
+
+      Delta Airlines faces challenges in staying competitive due to data silos and a lack of actionable insights. The company’s data is scattered across siloed systems making it difficult to gain a unified view of customer profiles. This fragmentation leads to inefficiencies in resolving customer issues, a lack of actionable business insights, and an inability to devise data-driven strategies.
     
     **User Story**
     

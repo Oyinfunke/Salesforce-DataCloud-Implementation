@@ -56,25 +56,51 @@ This implementation is not affiliated with or endorsed by Delta Airlines or any 
     
         - **Data Stream** **and Ingestion**
             
-            **Connecting the external Salesforce org and setting other connectors (Amazon S3 and UploadFile)**
+             **Connecting the external Salesforce org and setting other connectors (Amazon S3 and UploadFile)**
             
            1. Connecting my Salesforce CRM to SF Data Cloud org
+                        <p align="center">
+          <img src="images/connSF.jpg" alt="Centered Image" width="900" height="565">
+        </p>
+                    2. Connecting the Amazon S3 storage to SF Data Cloud org
                     <p align="center">
-      <img src="images/connSF.jpg" alt="Centered Image" width="900" height="565">
-    </p>
-                2. Connecting the Amazon S3 storage to SF Data Cloud org
-                <p align="center">
-      <img src="images/connConn.jpg" alt="Centered Image" width="900" height="565">
-    </p>
-    3. Setting the data stream
-      
+          <img src="images/connConn.jpg" alt="Centered Image" width="900" height="565">
+        </p>
+    **Setting the data stream**
+          
     <p align="center">
-  <img src="images/Screenshot 2024-12-12 153354.jpg" alt="Image 1" width="450" height="280" style="display:inline-block;">
- <img src="images/ds1.jpg" alt="Image 1" width="450" height="280" style="display:inline-block;">
-</p>
+      <img src="images/Screenshot 2024-12-12 153354.jpg" alt="Image 1" width="450" height="280" style="display:inline-block;">
+     <img src="images/ds1.jpg" alt="Image 1" width="450" height="280" style="display:inline-block;">
+    </p>
+**Data Ingestion into Data Cloud**
+    <p align="center">
+          <img src="images/din.jpg" alt="Centered Image" width="900" height="565">
+        </p>
+**Data Mapping**
 
-   
-  
+**Profile Unification**
+  <p align="center">
+          <img src="images/ir13.jpg" alt="Centered Image" width="900" height="565">
+        </p>
+        
+- **Lessons Learned**
+    
+    **Challenges Faced**
+    
+    - Creating and ingesting my data from a local file source was fraught with error and inefficiencies, so I resorted to using Amazon S3 and Salesforce CRM as my data sources.
+    - Mapping the Profile category data correctly to the appropriate DMOs in order to create identity resolution. Eventually I mapped the Profile category data to the Individual, Contact Point Email, Party Identification and Party DMOs
 
+- **Tools and Technologies used**
+    - Salesforce Data Cloud
+    - Salesforce CRM
+    - Amazon S3
+ 
+  ### 🔴Connect with Me
+
+:linkedin: [www.linkedin.com/in/oyinfunke](http://www.linkedin.com/in/oyinfunke)
+
+:calendly: [Take a Virtual Coffee with me](https://calendly.com/oyinfunke7/quick-chat)
+
+:mail: [oyinfunke7@gmail.com](mailto:oyinfunke7@gmail.com)
     
 

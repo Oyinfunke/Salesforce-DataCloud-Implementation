@@ -43,14 +43,25 @@ This implementation is not affiliated with or endorsed by Delta Airlines or any 
   
   🔴 Delta Airline Data Cloud Architecture Diagram
       <p align="center">
-  <img src="images/Copy of Data Cloud Marketing C360 System Landscape template.png" alt="Centered Image" width="1000" height="625">
+  <img src="images/Copy of Data Cloud Marketing C360 System Landscape template.png" alt="Centered Image" width="1000" height="670">
+</p>
+     🔴 Data Flow in Data Cloud
+      <p align="center">
+  <img src="images/DC_diagram.png" alt="Centered Image" width="1000" height="670">
 </p>
 
-
-
-
-
-- 
+ - **Implementation**
+    
+    - **Configuration**
+    
+        - **Data Stream** **and Ingestion**
+            
+            **Connecting the external Salesforce org and setting other connectors (Amazon S3 and UploadFile)**
+            
+            1. Connecting my Salesforce CRM to SF Data Cloud org
+                <p align="center">
+  <img src="images/connSF.jpg" alt="Centered Image" width="1000" height="670">
+</p>
   
 
     

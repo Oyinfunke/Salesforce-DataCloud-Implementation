@@ -1,7 +1,23 @@
 # Salesforce-DataCloud-Implementation
 ## Clicked Admin Sprint- DataCloud Implementation for Delta Airlines.
 
+<b>Disclaimer</b>
+
 *This implementation is not affiliated with or endorsed by Delta Airlines or any other airline. The data used in this project was randomly generated and is intended for educational and learning purposes only. Any references to Delta Airlines or its logo are purely for illustrative purposes to provide context to the learning scenario. The inclusion of the Delta Airlines logo does not imply sponsorship, partnership, or support from Delta Airlines.*
+
+<details>
+  <summary>📖 Table of Contents</summary>
+
+  - [Introduction](https://github.com/Oyinfunke/Salesforce-DataCloud-Implementation?tab=readme-ov-file#introduction)
+  - [Business Use Case](https://github.com/Oyinfunke/Salesforce-DataCloud-Implementation?tab=readme-ov-file#business-use-case)
+  - [Solution Design](https://github.com/Oyinfunke/Salesforce-DataCloud-Implementation?tab=readme-ov-file#solution-design)
+  - [Implementation](https://github.com/Oyinfunke/Salesforce-DataCloud-Implementation?tab=readme-ov-file#implementation)
+  - [Lessons Learned](https://github.com/Oyinfunke/Salesforce-DataCloud-Implementation?tab=readme-ov-file#lessons-learned)
+  - [Connect With Me](https://github.com/Oyinfunke/Salesforce-DataCloud-Implementation?tab=readme-ov-file#connect-with-me)
+
+</details>
+
+
 
 ### Introduction
 #### Objective

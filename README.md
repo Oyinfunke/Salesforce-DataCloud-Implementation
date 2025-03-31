@@ -41,66 +41,72 @@ As a **Customer Service Agent**, **I need** a 360-degree view of customer profil
 
 ### Solution Design
   
-  🔴 Delta Airline Data Cloud Architecture Diagram
-      <p align="center">
+  
+ <p align="center">
+      <b>Delta Airline Data Cloud Architecture Diagram</b>
   <img src="images/Copy of Data Cloud Marketing C360 System Landscape template.png" alt="Centered Image" width="900" height="565">
 </p>
-     🔴 Data Flow in Data Cloud
-      <p align="center">
+
+      
+<p align="center">
+    <b>Data Flow in Data Cloud</b>
   <img src="images/DC_diagram.png" alt="Centered Image" width="900" height="565">
 </p>
 
- - **Implementation**
+### Implementation
     
-    - **Configuration**
+#### Configuration
     
-        - **Data Stream** **and Ingestion**
+<b>Data Stream and Ingestion</b>
+**Connecting the external Salesforce org and setting other connectors (Amazon S3 and UploadFile)**
             
-             **Connecting the external Salesforce org and setting other connectors (Amazon S3 and UploadFile)**
-            
-           1. Connecting my Salesforce CRM to SF Data Cloud org
-                        <p align="center">
-          <img src="images/connSF.jpg" alt="Centered Image" width="900" height="565">
-        </p>
-                    2. Connecting the Amazon S3 storage to SF Data Cloud org
-                    <p align="center">
-          <img src="images/connConn.jpg" alt="Centered Image" width="900" height="565">
-        </p>
-    **Setting the data stream**
+1. Connecting my Salesforce CRM to SF Data Cloud org
+                <p align="center">
+  <img src="images/connSF.jpg" alt="Centered Image" width="900" height="565">
+</p>
+
+2. Connecting the Amazon S3 storage to SF Data Cloud org
+            <p align="center">
+  <img src="images/connConn.jpg" alt="Centered Image" width="900" height="565">
+</p>
+
+**Setting the data stream**
           
-    <p align="center">
-      <img src="images/Screenshot 2024-12-12 153354.jpg" alt="Image 1" width="450" height="280" style="display:inline-block;">
-     <img src="images/ds1.jpg" alt="Image 1" width="450" height="280" style="display:inline-block;">
-    </p>
+<p align="center">
+  <img src="images/Screenshot 2024-12-12 153354.jpg" alt="Image 1" width="450" height="280" style="display:inline-block;">
+ <img src="images/ds1.jpg" alt="Image 1" width="450" height="280" style="display:inline-block;">
+</p>
+
 **Data Ingestion into Data Cloud**
-    <p align="center">
-          <img src="images/din.jpg" alt="Centered Image" width="900" height="565">
-        </p>
+<p align="center">
+      <img src="images/din.jpg" alt="Centered Image" width="900" height="565">
+    </p>
+    
 **Data Mapping**
 
 **Profile Unification**
-  <p align="center">
-          <img src="images/ir13.jpg" alt="Centered Image" width="900" height="565">
-        </p>
-        
-- **Lessons Learned**
+<p align="center">
+      <img src="images/ir13.jpg" alt="Centered Image" width="900" height="565">
+    </p>
     
-    **Challenges Faced**
+ ### Lessons Learned
     
-    - Creating and ingesting my data from a local file source was fraught with error and inefficiencies, so I resorted to using Amazon S3 and Salesforce CRM as my data sources.
-    - Mapping the Profile category data correctly to the appropriate DMOs in order to create identity resolution. Eventually I mapped the Profile category data to the Individual, Contact Point Email, Party Identification and Party DMOs
+**Challenges Faced**
 
-- **Tools and Technologies used**
-    - Salesforce Data Cloud
-    - Salesforce CRM
-    - Amazon S3
- 
-  ### 🔴Connect with Me
+- Creating and ingesting my data from a local file source was fraught with error and inefficiencies, so I resorted to using Amazon S3 and Salesforce CRM as my data sources.
+- Mapping the Profile category data correctly to the appropriate DMOs in order to create identity resolution. Eventually I mapped the Profile category data to the Individual, Contact Point Email, Party Identification and Party DMOs
 
-:linkedin: [www.linkedin.com/in/oyinfunke](http://www.linkedin.com/in/oyinfunke)
+### Tools and Technologies used
+- Salesforce Data Cloud
+- Salesforce CRM
+- Amazon S3
 
-:calendly: [Take a Virtual Coffee with me](https://calendly.com/oyinfunke7/quick-chat)
+### 🔴Connect with Me
 
-:mail: [oyinfunke7@gmail.com](mailto:oyinfunke7@gmail.com)
+**Linkedin:** [www.linkedin.com/in/oyinfunke](http://www.linkedin.com/in/oyinfunke)
+
+**Calendly:** [Take a Virtual Coffee with me](https://calendly.com/oyinfunke7/quick-chat)
+
+**Email:** [oyinfunke7@gmail.com](mailto:oyinfunke7@gmail.com)
     
 
